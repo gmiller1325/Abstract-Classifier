@@ -29,7 +29,7 @@ I want to determine if the following abstract from a journal article talks about
 
     try:
         # Initialize the model and generate the content
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-1.5-pro-latest')
         response = model.generate_content(prompt)
 
         # Clean up the response to ensure it's just the category word
